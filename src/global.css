@@ -1,0 +1,72 @@
+/* global.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+/* .main-background {
+  background: url("./img/Damascus-Jasmine-Story.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  filter: brightness(0.7);
+}
+ */
+.main-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("./img/Damascus-Jasmine-Story.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.7) ;
+}
+
+/*  .hero-background {
+    @apply bg-hero-pattern bg-fixed bg-cover;
+    filter: brightness(0.5);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  } */
+
+header {
+  z-index: 1;
+}
+
+footer {
+  /*   position: fixed; */
+
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+/* button of language */
+.button-lang {
+  padding: 0px 5px;
+  
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-lang-selected {
+  color: red;
+}
+
+.language-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
