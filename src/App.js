@@ -13,33 +13,36 @@ import Grammar from "./components/lessons/Grammar";
 import Letters from "./components/lessons/Letters";
 import Numbers from "./components/lessons/Numbers";
 import Vocabulary from "./components/lessons/Vocabulary";
+import { AuthProvider } from "./contexts/AuthContext";
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Header />
-        <main >
-          <div className="main-background"></div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/lessons" element={<Lessons />} />
-            <Route path="/signin" element={<Signin />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/aboutus" element={<Aboutus />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-          <Routes>
-            <Route path="/lessons/vocabulary" element={<Vocabulary />} />
-            <Route path="/lessons/grammar" element={<Grammar />} />
-            <Route path="/lessons/letters" element={<Letters />} />
-            <Route path="/lessons/numbers" element={<Numbers />} />
-            <Route path="/lessons/expressions" element={<Expressions />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <div className="app">
+          <Header />
+          <main>
+            <div className="main-background"></div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/lessons" element={<Lessons />} />
+              <Route path="/signin" element={<Signin />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/aboutus" element={<Aboutus />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+            <Routes>
+              <Route path="/lessons/vocabulary" element={<Vocabulary />} />
+              <Route path="/lessons/grammar" element={<Grammar />} />
+              <Route path="/lessons/letters" element={<Letters />} />
+              <Route path="/lessons/numbers" element={<Numbers />} />
+              <Route path="/lessons/expressions" element={<Expressions />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </AuthProvider>
   );
 }
 

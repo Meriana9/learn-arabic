@@ -4,8 +4,10 @@ import Grammar from "./lessons/Grammar";
 import Letters from "./lessons/Letters";
 import Numbers from "./lessons/Numbers";
 import Expressions from "./lessons/Expressions";
+import { useTranslation } from "react-i18next";
 
 function Lessons() {
+  const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("vocabulary");
 
   const handleCategoryChange = (category) => {
@@ -14,7 +16,7 @@ function Lessons() {
 
   return (
     <div className="container mx-auto py-8 h-screen">
-      <h1 className="text-4xl font-bold mb-8">Lessons</h1>
+      <h1 className="text-4xl font-bold mb-8">{t("Lessons")}</h1>
 
       {/* Barre de navigation des catégories */}
       <div className="flex justify-center mb-8">
@@ -24,7 +26,7 @@ function Lessons() {
           }`}
           onClick={() => handleCategoryChange("vocabulary")}
         >
-          Vocabulary
+          {t("Vocabulary")}
         </button>
         <button
           className={`mr-4 ${
@@ -32,7 +34,7 @@ function Lessons() {
           }`}
           onClick={() => handleCategoryChange("grammar")}
         >
-          Grammar
+          {t("Grammar")}
         </button>
         <button
           className={`mr-4 ${
@@ -40,7 +42,7 @@ function Lessons() {
           }`}
           onClick={() => handleCategoryChange("letters")}
         >
-          Letters
+          {t("Letters")}
         </button>
         <button
           className={`mr-4 ${
@@ -48,7 +50,7 @@ function Lessons() {
           }`}
           onClick={() => handleCategoryChange("numbers")}
         >
-          Numbers
+          {t("Numbers")}
         </button>
         <button
           className={`mr-4 ${
@@ -56,7 +58,7 @@ function Lessons() {
           }`}
           onClick={() => handleCategoryChange("expressions")}
         >
-          Expressions
+          {t("Expressions")}
         </button>
       </div>
 

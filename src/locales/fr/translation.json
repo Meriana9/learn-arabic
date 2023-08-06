@@ -1,6 +1,27 @@
 {
     "welcome": "Bienvenue dans votre maison arabe ",
     "home_text": "Bienvenue sur notre plateforme dédiée à l'apprentissage de la langue arabe. Ce site vous guide à travers les nuances de l'arabe classique (fosha), généralement enseigné à l'école, ainsi que de l'arabe syrien. Nous offrons également des ressources pour l'écriture en arabe et la translittération en alphabet latin, ce qui sera particulièrement utile pour ceux qui préfèrent se concentrer sur l'oral. Une caractéristique unique de notre site est qu'il vous permet de contribuer à notre bibliothèque de vocabulaire et d'informations. Nous comptons sur votre participation pour continuer à enrichir et améliorer notre plateforme. De plus, pour faciliter la compréhension et l'apprentissage de la prononciation, nous mettons à disposition des supports audio. Une méthode que nous adoptons ici est la combinaison de lettres et de chiffres pour créer ce que l'on appelle la \"translittération\" ou \"romanisation\". Cette technique vous aidera à comprendre plus facilement l'arabe. Nous vous souhaitons une expérience d'apprentissage enrichissante avec nous.",
-    "access_lessons": "Accéder aux cours"
+    "access_lessons": "Accéder aux cours",
+    "Lessons": "Cours",
+    "About Us": "À propos",
+    "Contact": "Contact",
+    "Log In": "se connecter",
+    "Sign In": "Se connecter",
+    "Sign Up": "S'inscrire",
+    "Language": "Langue",
+
+   
+    "Contact form": "Contactez-nous",
+    "Name":"Nom",
+    "Email *":"Email",
+    "Message *":"Message",
+    "Send": "Envoyer",
+
+    "Vocabulary": "Vocabulaire",
+    "Grammar": "Grammaire",
+    "Letters": "Lettres",
+    "Numbers": "Nombres",
+    "Expressions": "Expressions"
+
   }
   

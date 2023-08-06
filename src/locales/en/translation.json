@@ -1,6 +1,24 @@
 {
-    "welcome": "Welcome to your Arabic home",
-    "home_text": "Welcome to our platform dedicated to learning the Arabic language. This site guides you through the nuances of classical Arabic (fosha), generally taught in school, as well as Syrian Arabic. We also offer resources for Arabic writing and transliteration in the Latin alphabet, which will be particularly useful for those who prefer to focus on speaking.A unique feature of our site is that it allows you to contribute to our vocabulary library and information. We are counting on your participation to continue to enrich and improve our platform. In addition, to facilitate understanding and learning of pronunciation, we provide audio support. One method that we adopt here is the combination of letters and numbers to create what is known as \"transliteration\" or \"romanization\". This technique will help you understand Arabic more easily. We wish you a rewarding learning experience with us .",
-     "access_lessons": "Access the courses"
-  }
-  
+  "welcome": "Welcome to your Arabic home",
+  "home_text": "Welcome to our platform dedicated to learning the Arabic language. This site guides you through the nuances of classical Arabic (fosha), generally taught in school, as well as Syrian Arabic. We also offer resources for Arabic writing and transliteration in the Latin alphabet, which will be particularly useful for those who prefer to focus on speaking.A unique feature of our site is that it allows you to contribute to our vocabulary library and information. We are counting on your participation to continue to enrich and improve our platform. In addition, to facilitate understanding and learning of pronunciation, we provide audio support. One method that we adopt here is the combination of letters and numbers to create what is known as \"transliteration\" or \"romanization\". This technique will help you understand Arabic more easily. We wish you a rewarding learning experience with us .",
+  "access_lessons": "Access the courses",
+  "Lessons": "Lessons",
+  "About Us": "About Us",
+  "Contact": "Contact",
+  "Log In": "Log In",
+  "Sign In": "Sign In",
+  "Sign Up": "Sign Up",
+  "Language": "Language",
+
+  "Contact form": "Contact form",
+  "Name": "Name",
+  "Email *": "Email",
+  "Message *": "Message",
+  "Send": "Send",
+
+  "Vocabulary": "Vocabulary",
+  "Grammar": "Grammar",
+  "Letters": "Letters",
+  "Numbers": "Numbers",
+  "Expressions": "Expressions"
+}

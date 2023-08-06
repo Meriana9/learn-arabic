@@ -1,9 +1,12 @@
-export default function Expressions(){
- // Contenu de la catégorie Expressions
+import React from "react";
+import { useTranslation } from "react-i18next";
 
- return (
+export default function Expressions() {
+  const { t } = useTranslation();
+
+  return (
     <div>
-      <h2>Expressions Lessons</h2>
+      <h2>{t("Expressions Lessons")}</h2>
       {/* Ajoutez le contenu spécifique à la catégorie Expressions */}
     </div>
   );
